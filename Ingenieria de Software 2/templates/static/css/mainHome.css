@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v45_348 {
+  width: 100%;
+  height: 1117px;
+  background: rgba(215,191,70,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v67_293 {
+  width: 100%;
+  height: 288px;
+  background: url("../images/v67_293.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 838px;
+  left: 0px;
+  overflow: hidden;
+}
+.v45_423 {
+  width: 100%;
+  height: 1098px;
+  background: url("../images/v45_423.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v45_394 {
+  width: 100%;
+  height: 139px;
+  background: rgba(224,224,224,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v45_395 {
+  width: 403px;
+  height: 39px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 62px;
+  left: 1128px;
+}
+.v45_396 {
+  width: 100px;
+  height: 95px;
+  background: url("../images/v45_396.png");
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 1606px;
+  border-radius: 50%;
+}
+.v45_401 {
+  width: 67px;
+  height: 67px;
+  background: url("../images/v45_401.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 352px;
+  overflow: hidden;
+}
+.v45_402 {
+  width: 144px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 100px;
+  left: 353px;
+  font-family: ABeeZee;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v45_403 {
+  width: 85px;
+  height: 75px;
+  background: url("../images/v45_403.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 497px;
+  overflow: hidden;
+}
+.v45_404 {
+  width: 68px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 100px;
+  left: 510px;
+  font-family: ABeeZee;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v45_405 {
+  width: 53px;
+  height: 57px;
+  background: url("../images/v45_405.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  left: 685px;
+  overflow: hidden;
+}
+.v45_406 {
+  width: 166px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 100px;
+  left: 655px;
+  font-family: ABeeZee;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v45_412 {
+  width: 115px;
+  height: 118px;
+  background: url("../images/v45_412.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v45_400 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 95px;
+  left: 215px;
+  font-family: ABeeZee;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v45_408 {
+  width: 181px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 100px;
+  left: 794px;
+  font-family: ABeeZee;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v45_409 {
+  width: 43px;
+  height: 45px;
+  background: url("../images/v45_409.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 43px;
+  left: 1009px;
+  overflow: hidden;
+}
+.v45_410 {
+  width: 76px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 98px;
+  left: 999px;
+  font-family: ABeeZee;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v45_411 {
+  width: 34px;
+  height: 36px;
+  background: url("../images/v45_411.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 66px;
+  left: 1537px;
+  overflow: hidden;
+}
+.v54_309 {
+  width: 512px;
+  height: 384px;
+  background: url("../images/v54_309.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 694px;
+  left: 113px;
+  overflow: hidden;
+}
+.v54_303 {
+  width: 330px;
+  height: 366px;
+  background: url("../images/v54_303.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 715px;
+  left: 746px;
+  overflow: hidden;
+}
+.v54_301 {
+  width: 458px;
+  height: 401px;
+  background: url("../images/v54_301.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 697px;
+  left: 1199px;
+  overflow: hidden;
+}
+.v45_500 {
+  width: 307px;
+  height: 122px;
+  background: rgba(255,255,255,0.7599999904632568);
+  opacity: 1;
+  position: absolute;
+  top: 572px;
+  left: 720px;
+  border-radius: 50%;
+}
+.v51_295 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 484px;
+  left: 54px;
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v45_442 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 262px;
+  left: 35px;
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.v65_294 {
+  width: 60px;
+  height: 61px;
+  background: url("../images/v65_294.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 215px;
+  overflow: hidden;
+}
+.v65_298 {
+  width: 60px;
+  height: 63px;
+  background: url("../images/v65_298.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 834px;
+  overflow: hidden;
+}
+.v45_499 {
+  width: 256px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 611px;
+  left: 746px;
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
