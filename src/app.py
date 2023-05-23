@@ -12,7 +12,7 @@ db = create_client(config['development'].SUPABASE_URL, config['development'].SUP
 
 @app.route('/')
 def home():
-    return redirect(url_for('login'))
+    return render_template('index.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -22,7 +22,7 @@ def login():
         try:
             
             db.auth.sign_in_with_password({"email": username, "password": password})
-            return render_template('indexHome.html')
+            return render_template('index.html')
         except Exception as e:
             print('Error: ' + str(e))
     else:     
