@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0cb85;
+    background-size: contain;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-repeat: auto ;
+      background-image:  url(../Proyecto_fina/Edificios.png);
+  }
+  
+
+  img {
+    width: auto;
+    height: auto;
+  }

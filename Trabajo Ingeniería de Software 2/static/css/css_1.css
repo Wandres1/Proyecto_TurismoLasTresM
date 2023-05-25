@@ -1,0 +1,69 @@
+body {
+    background-color: #e0cb85;
+    height: 100vh;
+    margin: 0;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../Proyecto_fina/Edificios.png);
+}
+
+.mapa{
+    height: 500px;
+    width: 100%;
+}
+
+.container_index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+}
+.btnbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    font-size: 18px;
+    width: 15%;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    display:block;
+}
+.header{
+    width: 100%;
+    padding: 30px 20px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-nav{
+    height: 150px;
+    width: auto;
+    margin-bottom: 15px;
+}
+.nav-bar{
+    display: flex;
+    
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+.Logo{
+    height: 100px;
+    width: 100px;
+}

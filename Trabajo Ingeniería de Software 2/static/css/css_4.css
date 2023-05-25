@@ -1,0 +1,116 @@
+.Logo{
+    width: 80px;
+    height: 80px;
+    background-color: #e0cb85;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+header.abajo{
+    background: #e0cb85;
+    padding: 15px 20px;
+
+}
+header.abajo  li a:hover{
+    background:#ffffff;
+    color:#000000;
+  
+}
+header li a:hover{
+    background:#e0cb85;
+    color:#000000;
+}
+
+header.abajo ul li a{
+    color: #000;
+}
+header.Logo{
+    position: relative;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 25px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.mapa{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: auto;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/SitiosInteres2.jpg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    display: grid;
+    align-content: center;
+    padding-bottom: 145px;
+    text-align: center;
+}
+
+.parrafoT{
+    margin-top: 210px;
+    color: #ffffff;
+}
+.parrafo{
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: grid;
+    align-content: center;
+    gap: 2em;
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.mapid {
+    height: 500px;
+    width: auto;
+    display: grid;
+}
+
+.mapaAndrespro {
+    display: grid;
+}

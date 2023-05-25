@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="../static/images/css_1.css">
+</head>
+
+<body>
+
+
+    <div id="map" class="mapa"></div>
+    <div class="btnbox">
+        <button class="btn1" onclick="location.href='Pagina2.html';">Vuelve al menu</button>
+    </div>
+    
+
+    <script>
+        function initMap() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    var map = L.map('map').setView([latitude, longitude], 13);
+
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+                        maxZoom: 18,
+                    }).addTo(map);
+
+                    L.marker([latitude, longitude]).addTo(map)
+                        .bindPopup('Tu ubicación')
+                        .openPopup();
+                });
+            } else {
+                alert("Tu navegador no soporta geolocalización.");
+            }
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+
+    <script>
+        initMap();
+    </script>
+</body>
+
+</html>
