@@ -43,7 +43,7 @@ async function buscarRegistro(event) {
 
       // Almacenar en el almacenamiento local del navegador
       localStorage.setItem('isLoggedIn', true);
-      localStorage.setItem('usuario', usuario)
+      localStorage.setItem('usuario', usuario);
       window.location.href = 'index.html';
     } else {
       console.log('Credenciales incorrectas');
